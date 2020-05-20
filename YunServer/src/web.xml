@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<servlet>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>serverlet.LoginServerlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Singin</servlet-name>
+		<servlet-class>serverlet.SigninServerlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/Login</url-pattern>	
+		<url-pattern>/Log</url-pattern>	
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Singin</servlet-name>
+		<url-pattern>/Singin</url-pattern>	
+		<url-pattern>/Singin</url-pattern>	
+		<url-pattern>/Singin</url-pattern>	
+	</servlet-mapping>
+</web-app>

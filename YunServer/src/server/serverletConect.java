@@ -10,7 +10,7 @@ public class serverletConect {
         Map<String, String> serverlet = context.getServerlet();
         Map<String, String> mapping = context.getMapping();
         PrazeXML prazer = new PrazeXML();
-        prazer.praseServerlet(Domdemo.getDocument("bin/web.xml"));
+        prazer.praseServerlet("bin/web.xml");
         List<Entity> entityList = prazer.getEntityList();
         List<Mapping> mappingList = prazer.getMappingList();
         for(Entity entity : entityList) {
